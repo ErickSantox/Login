@@ -1,0 +1,75 @@
+body{
+    background-color: #beaadd;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: aliceblue;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 06%;
+}
+
+#box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 53, 119);
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px rgba(2, 0, 2, 0.2);
+
+}
+h2{
+    margin-left: 37%;
+    margin-bottom: 10%;
+    text-shadow: 2px 3px #141414;
+}
+div.email{
+    margin-left: 10%;
+}
+div.senha{
+    margin-left: 10%;
+}
+div.lembrar{
+    font-size: 90%;
+    margin-top: 4px;
+    margin-left: 10%;
+}
+button{
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #beaadd;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    text-size-adjust: 1px;
+}
+
+a.link{
+    margin-left: 48%;
+    margin-left: 10%;
+    color: white;
+    font-size: small;
+
+}
+
+input.email{
+    height: 25px;
+    width: 7cm;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    color: black;
+    background-color: white;
+}
+input.senha{
+    height: 25px;
+    width: 7cm;
+    border-radius: 8px;
+    background-color: white;
+}
