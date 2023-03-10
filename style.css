@@ -1,34 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 body{
-    background-color: #beaadd;
-    background-repeat: no-repeat;
+    background: linear-gradient(120deg, #2e023fd8, #453fffda);
+    height: 100vh;
     margin: 0%;
     padding: 0%;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Tilt Neon;
     color: aliceblue;
 }
-section{
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 06%;
+    margin-top: 20vh;
+    margin-bottom: 0vh;
 }
 
 #box{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(63, 53, 119);
+    background-color: transparent;
     width: 350px;
     height: 400px;
+    border-style:groove;
     border-radius: 30px;
     box-shadow: 4px 4px 4px 4px rgba(2, 0, 2, 0.2);
 
 }
 h2{
-    margin-left: 37%;
-    margin-bottom: 10%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6vh;
     text-shadow: 2px 3px #141414;
 }
+p{
+    text-shadow: 2px 3px #141414;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
 div.email{
     margin-left: 10%;
 }
@@ -44,11 +53,11 @@ button{
     margin-left: 10%;
     background-color: rgb(255, 255, 255);
     color: black;
-    border: 2px solid #beaadd;
+    border: 2px solid #3d0099;
     border-radius: 5px;
     font-size: 20px;
-    display: inline-block;
-    text-size-adjust: 1px;
+    cursor: pointer;
+
 }
 
 a.link{
@@ -73,3 +82,10 @@ input.senha{
     border-radius: 8px;
     background-color: white;
 }
+
+button:hover{
+    color: whitesmoke;
+    background: linear-gradient(120deg, #a205e0d8, #453fffda);
+}
+
+
